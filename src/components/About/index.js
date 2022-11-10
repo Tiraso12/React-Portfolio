@@ -1,11 +1,10 @@
 import React from "react";
 import './index.css'
 
-import { Container, Row, Col } from "react-bootstrap";
+import {Row, Col } from "react-bootstrap";
 
 export default function About() {
     return (
-        <Container >
             <Row>
                 <Col className="pt-5 pb-5 text-center">
                     <h1>I'm Gonzalo,</h1>
@@ -16,6 +15,5 @@ export default function About() {
                 </Col>
             </Row>
 
-        </Container>
     )
 }

@@ -7,14 +7,16 @@ import Project from './components/Projects';
 
 function App() {
   return (
-    <div className="App">
-      <header className="">
+    <div>
+      <header>
         <Top />
       </header>
-      <main>
+      <main className='container min-vh-75'>
         <About />
-        <Project/>
       </main>
+      <section>
+        <Project />
+      </section>
     </div>
   );
 }
