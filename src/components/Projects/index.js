@@ -1,5 +1,8 @@
 import React from "react";
 import { Col, Container, Row, Image } from "react-bootstrap";
+import './index.css';
+
+
 import runBuddy from '../../assets/images/runbuddy.png'
 import game from '../../assets/images/game.png'
 import notetaker from '../../assets/images/notetaker.png'
@@ -15,7 +18,7 @@ export default function Project() {
                         src={runBuddy}
                         fluid
                         rounded
-                        className=""
+                        className="border border-dark"
                     />
                 </Col>
                 <Col>
@@ -23,14 +26,14 @@ export default function Project() {
                         src={game}
                         fluid
                         rounded
-                        className=""
+                        className="border border-dark"
                     /></Col>
                 <Col>
                     <Image
                         src={notetaker}
                         fluid
                         rounded
-                        className=""
+                        className="border border-dark"
                     /></Col>
             </Row>
             <Row className="px-4 my-5">
@@ -39,7 +42,7 @@ export default function Project() {
                         src={teamroster}
                         fluid
                         rounded
-                        className=""
+                        className="border border-dark"
                     />
                 </Col>
                 <Col>
@@ -47,14 +50,14 @@ export default function Project() {
                         src={weather}
                         fluid
                         rounded
-                        className=""
+                        className="border border-dark"
                     /></Col>
                 <Col>
                     <Image
                         src={runBuddy}
                         fluid
                         rounded
-                        className=""
+                        className="border border-dark"
                     /></Col>
             </Row>
         </Container>

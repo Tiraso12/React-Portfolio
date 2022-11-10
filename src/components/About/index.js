@@ -1,17 +1,23 @@
 import React from "react";
 import './index.css'
+import photo from '../../assets/images/photo.jfif'
 
-import {Row, Col } from "react-bootstrap";
+import {Row, Col, Image } from "react-bootstrap";
 
 export default function About() {
     return (
-            <Row>
-                <Col className="pt-5 pb-5 text-center">
+            <Row className="tall">
+                <Col className="pt-5 pb-5  text-center align-self-center">
                     <h1>I'm Gonzalo,</h1>
                     <h3>Web Developer</h3>
+                    <p >lorem askdjsakdjsaj jd sopadpsa <br />djsapd ap djsapjdp sajjdpaspjpdaspj pdoajspjdasjodj <br />poasjdpojpsa jdpojaspjd pasjdp ojaspj<br /> dasjdj asj</p>
                 </Col>
-                <Col>
-                    <p className="text-center pt-5">lorem askdjsakdjsaj jd sopadpsa <br />djsapd ap djsapjdp sajjdpaspjpdaspj pdoajspjdasjodj <br />poasjdpojpsa jdpojaspjd pasjdp ojaspj<br /> dasjdj asj</p>
+                <Col className="pt-5 pb-5  text-center align-self-center">
+                    <Image 
+                    src={photo}
+                    rounded/>
+                    
+                    
                 </Col>
             </Row>
 
