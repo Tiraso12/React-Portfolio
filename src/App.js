@@ -1,4 +1,5 @@
-import './App.css';
+import React, { useState } from "react";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import Top from './components/Top';
@@ -8,13 +9,16 @@ import Footer from './components/Footer';
 import Contact from './components/Contact';
 
 function App() {
+
+  useState('home')
+
   return (
     <div>
       <Top />
       <main className='container min-vh-75'>
         <About />
         <Project />
-        <Contact/>
+        <Contact />
       </main>
       <Footer />
     </div>

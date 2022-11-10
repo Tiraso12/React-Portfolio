@@ -9,7 +9,7 @@ export default function About() {
             <Row className="tall">
                 <Col className="pt-5 pb-5  text-center align-self-center">
                     <h1>I'm Gonzalo,</h1>
-                    <h3>Web Developer</h3>
+                    <h3>Learning Web Development!!</h3>
                     <p >lorem askdjsakdjsaj jd sopadpsa <br />djsapd ap djsapjdp sajjdpaspjpdaspj pdoajspjdasjodj <br />poasjdpojpsa jdpojaspjd pasjdp ojaspj<br /> dasjdj asj</p>
                 </Col>
                 <Col className="pt-5 pb-5  text-center align-self-center">
