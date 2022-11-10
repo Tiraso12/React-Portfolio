@@ -5,9 +5,9 @@ import { Container, Row, Col } from "react-bootstrap";
 
 export default function About() {
     return (
-        <Container>
+        <Container >
             <Row>
-                <Col className="pt-5 text-center">
+                <Col className="pt-5 pb-5 text-center">
                     <h1>I'm Gonzalo,</h1>
                     <h3>Web Developer</h3>
                 </Col>

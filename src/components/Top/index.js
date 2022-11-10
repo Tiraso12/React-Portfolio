@@ -10,9 +10,9 @@ export default function Top() {
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
                 <Nav.Link href="#home">About me</Nav.Link>
-                <Nav.Link href="#contact-me">Contact Me</Nav.Link>
                 <Nav.Link href="#projects">Projects</Nav.Link>
-                <Nav.Link href="#Resume">Projects</Nav.Link>
+                <Nav.Link href="#Resume">Resume</Nav.Link>
+                <Nav.Link href="#contact-me">Contact Me</Nav.Link>
               </Nav>
             </Navbar.Collapse>
 
