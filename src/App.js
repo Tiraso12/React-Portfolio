@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -13,15 +14,28 @@ function App() {
   useState('home')
 
   return (
-    <div>
-      <Top />
-      <main className='container min-vh-75'>
-        <About />
-        <Project />
-        <Contact />
-      </main>
-      <Footer />
-    </div>
+    <Router>
+      <div>
+        <Top />
+        <main className='container min-vh-75'>
+          <Routes>
+            <Route
+              path="/"
+              element={<About />}
+            />
+            <Route
+              path="/project"
+              element={<Project />}
+            />
+            <Route
+              path="/contact"
+              element={<Contact />}
+            />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

@@ -4,3 +4,8 @@
   width: auto;
   height: auto;
 }
+
+#basic-navbar-nav a {
+  text-decoration: none;
+  color: white;
+}
