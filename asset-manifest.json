@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.39070308.css",
+    "main.js": "/React-Portfolio/static/js/main.9562dbdd.js",
+    "static/media/webpage.jpg": "/React-Portfolio/static/media/webpage.c672fcf0b6bd0c33ff16.jpg",
+    "static/media/game.png": "/React-Portfolio/static/media/game.42809de4fd10cfd6e923.png",
+    "static/media/runbuddy.png": "/React-Portfolio/static/media/runbuddy.6588924be48e3668f096.png",
+    "static/media/weather.png": "/React-Portfolio/static/media/weather.439a02b5ee0d108ef60e.png",
+    "static/media/teamroster.png": "/React-Portfolio/static/media/teamroster.446e33c9733547f19d36.png",
+    "static/media/notetaker.png": "/React-Portfolio/static/media/notetaker.0faa8e89d2fa89447c58.png",
+    "static/media/photo.jfif": "/React-Portfolio/static/media/photo.2a2df415092542a7309e.jfif",
+    "index.html": "/React-Portfolio/index.html",
+    "main.39070308.css.map": "/React-Portfolio/static/css/main.39070308.css.map",
+    "main.9562dbdd.js.map": "/React-Portfolio/static/js/main.9562dbdd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39070308.css",
+    "static/js/main.9562dbdd.js"
+  ]
+}
