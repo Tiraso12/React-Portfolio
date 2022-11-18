@@ -9,6 +9,7 @@ import notetaker from '../../assets/images/notetaker.png'
 import teamroster from '../../assets/images/teamroster.png'
 import weather from '../../assets/images/weather.png'
 import octo from '../../assets/images/webpage.jpg'
+import second from '../../assets/images/secondGame.png'
 
 export default function Project() {
     useState(false)
@@ -73,6 +74,17 @@ export default function Project() {
 
                         <Image
                             src={octo}
+                            fluid
+                            rounded
+                            className="border border-dark"
+                        />
+                    </a>
+                </Col>
+                <Col>
+                    <a href="https://tranquil-island-69050.herokuapp.com/" target="new_blank">
+
+                        <Image
+                            src={second}
                             fluid
                             rounded
                             className="border border-dark"
